@@ -17,4 +17,4 @@ def current_player(board)
     return "Player Two"
   end
   
-  
+ end 
