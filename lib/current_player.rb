@@ -12,7 +12,7 @@ end
 
 def current_player(board)
   if turn_count == num.even?
-    return "Player One"
+    Player "X"
   else
     return "Player Two"
   end
