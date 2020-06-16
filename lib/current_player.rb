@@ -11,13 +11,15 @@ end
 end
 
 def current_player(board)
-  if current_player(board)(board) == X
+  if current_player(board) == X
   return O
+end
   elsif current_player(board) == O
   return X
+end
   else
   counter % 3 == true
   return X
-  end
+end
   
 end 
