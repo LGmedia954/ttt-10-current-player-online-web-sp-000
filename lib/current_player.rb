@@ -12,9 +12,9 @@ end
 
 def current_player(board)
   if turn_count(board) == num.odd?
-  return Player X
+  return player X
   else
-  return Player O
+  return player O
   end
   
  end 
