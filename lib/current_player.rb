@@ -20,4 +20,4 @@ def current_player(board)
   return player
   end
   
- end 
+end 
