@@ -7,6 +7,6 @@ def turn_count
   counter += 1
   end
 end
-  return count
+  return counter <= 8
 end
   
