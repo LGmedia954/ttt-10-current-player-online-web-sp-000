@@ -11,10 +11,10 @@ end
 end
 
 def current_player(board)
-  if gets.strip.to_i - 1 == .even?
-    "greeting"
+  if gets.strip.to_i - 1 == num.even?
+    return ""
   else
-    "other"
+    return "O"
   end
   
   
