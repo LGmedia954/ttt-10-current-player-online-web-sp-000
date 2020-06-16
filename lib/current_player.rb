@@ -17,7 +17,7 @@ end
   if current_player(board) == O && counter == 1
   return X
 end
-  if counter % 3 == true
+  if counter % 3 == 0
   return X
 end
   
