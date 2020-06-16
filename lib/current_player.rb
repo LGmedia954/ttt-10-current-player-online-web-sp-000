@@ -17,7 +17,7 @@ def current_player(board)
   return O
   else
   counter % 3 == true
-  return player X
+  return player
   end
   
  end 
