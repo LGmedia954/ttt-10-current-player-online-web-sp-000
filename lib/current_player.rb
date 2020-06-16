@@ -11,12 +11,7 @@ end
 end
 
 def current_player(board)
-  if current_player(board) == X && counter == 0
-  return O
-end
-  if current_player(board) == O && counter == 1
-  return X
-end
+  turn_count(board).even? ? X : O
   if counter % 3 == 0
   return X
 end
