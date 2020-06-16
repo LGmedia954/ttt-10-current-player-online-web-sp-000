@@ -11,7 +11,7 @@ end
 end
 
 def current_player(board)
-  if gets.strip.to_i - 1 == gets =~ .even?
+  if gets.strip.to_i - 1 == .even?
     "greeting"
   else
     "other"
