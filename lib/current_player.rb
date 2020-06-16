@@ -1,14 +1,12 @@
 board = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
-mark = "X" || "O"
-
-def turn_count(board)
-  board.each do |mark|
-    counter = 0
-while counter <= 8
-    puts "${mark}"
+def turn_count
+  counter = 0
+  board.each do |index|
+  if index == "X" || "O"
+  counter += 1
   end
 end
-  
+  return count
 end
   
