@@ -11,7 +11,7 @@ end
 end
 
 def current_player(board)
-  if gets.strip.to_i - 1 == num.even?
+  if num == num.even?
     return ""
   else
     return "O"
