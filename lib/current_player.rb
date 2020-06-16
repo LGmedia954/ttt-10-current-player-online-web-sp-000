@@ -11,9 +11,11 @@ end
 end
 
 def current_player(board)
-  if turn_count(board) == counter.odd?
+  if counter % 3
   return player X
-  elsif turn_count(board) == counter.even?
+  elsif turn_count(board) == counter.odd?
+  return player X
+  else turn_count(board) == counter.even?
   return player O
   end
   
