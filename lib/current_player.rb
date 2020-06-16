@@ -11,6 +11,10 @@ end
 end
 
 def current_player(board)
-  if 
+  if gets =~ /hello/i
+    "greeting"
+  else
+    "other"
+  end
   
   
